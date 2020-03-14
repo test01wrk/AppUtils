@@ -1,0 +1,10 @@
+apply from: 'https://raw.githubusercontent.com/sky-uk/gradle-maven-plugin/master/gradle-mavenizer.gradle'
+
+project.ext {
+    GITHUB_GROUP = 'com.github.test01wrk'
+    mavSiteUrl = "https://github.com/test01wrk/AppUtils"
+    mavGitUrl = mavSiteUrl + '.git'
+    mavProjectName = 'AppUtils'
+    mavPublishToMavenLocal = true
+    mavLibraryDescription = "Utils for new app"
+}
