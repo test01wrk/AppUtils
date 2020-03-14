@@ -1,0 +1,4 @@
+rootProject.name='AppUtils'
+include ':app'
+include ':apputils'
+include ':apputils-network'
